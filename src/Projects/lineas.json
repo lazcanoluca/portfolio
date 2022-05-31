@@ -1,0 +1,51 @@
+{
+    "data": "Trenes Subte BA",
+    "trenes": {
+        "serie 100": {
+            "modelo": "Serie 100",
+            "fabricante": "CNR",
+            "añoPedido": 1917,
+            "añosServicio": {
+                "introducido": 1919,
+                "retirado": 2000
+            },
+            "servicio": {
+                "lineaA": [1920, null],
+                "lineaB": null,
+                "lineaC": [1975, 1999],
+                "lineaD": null,
+                "lineaE": null
+            },
+            "añosProduccion": {
+                "desde": 1917,
+                "hasta": 1975
+            },
+            "produccion": [
+                    {
+                        "fabricadoEn": "Brasil",
+                        "por": "Materfer",
+                        "desde": 1917,
+                        "hasta": 1945
+                    },
+                    {
+                        "fabricadoEn": "Bélgica",
+                        "por": "La Brugeoise",
+                        "desde": 1945,
+                        "hasta": 1975
+                    }
+                ],
+            "fueraDeServicio": true,
+            "cantidadEnServicio": {
+                "frente": 78,
+                "medio": 13
+            },
+            "galeria": []
+        },
+        "serie 300": {
+
+        },
+        "la brugeoise": {
+
+        }
+    }
+}

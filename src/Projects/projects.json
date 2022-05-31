@@ -1,0 +1,54 @@
+{
+    "projects": [
+        {
+            "name": "Solar System Catalog",
+            "description": "Browse and learn about the planets, moons and other celestial bodies of the Solar System. Powered by The Solar System API.",
+            "year": 2021,
+            "month": 1,
+            "url": "https://solar-system-catalog.netlify.app/",
+            "github": "https://github.com/lazcanoluca/solar-log",
+            "stack": ["html", "css", "js", "react"],
+            "image": "https://solarsystem.nasa.gov/system/news_items/main_images/265_P50142.jpg"
+        },
+        {
+            "name": "Movie Browser",
+            "description": "Browse the latest movies and related information. Powered by The Movie DB.",
+            "year": 2021,
+            "month": 1,
+            "url": "https://react-movie-catalog.netlify.app/",
+            "github": "https://github.com/lazcanoluca/movie-browser-rmdb",
+            "stack": ["html", "css", "js", "react"],
+            "image": "url or path for image"
+        },
+        {
+            "name": "project 3",
+            "description": "project number 3 description",
+            "year": 2020,
+            "month": 9,
+            "url": "some url",
+            "github": "githu url",
+            "stack": ["html", "css", "js", "react"],
+            "image": "url or path for image"
+        },
+        {
+            "name": "project 4",
+            "description": "project number 4 description",
+            "year": 2020,
+            "month": 9,
+            "url": "some url",
+            "github": "githu url",
+            "stack": ["html", "css", "js", "react"],
+            "image": "url or path for image"
+        },
+        {
+            "name": "project 5",
+            "description": "project number 5 description",
+            "year": 2020,
+            "month": 9,
+            "url": "some url",
+            "github": "githu url",
+            "stack": ["html", "css", "js", "react"],
+            "image": "url or path for image"
+        }
+]
+}

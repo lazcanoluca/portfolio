@@ -1,5 +1,7 @@
 import React from 'react';
 
+import projects from '../Projects/projects.json';
+
 // Components
 import HeroSection from './HeroSection';
 import Contact from './Contact';
@@ -9,10 +11,14 @@ import Social from './Social';
 // import Resume from './Resume';
 
 const Home = () => {
+
+    console.log(projects);
+    console.log(projects.projects);
+
     return (
         <>
             <HeroSection />
-            <Projects />
+            <Projects projects = { projects.projects } />
             <Contact />
             <Social />
         </>
