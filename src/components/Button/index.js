@@ -13,7 +13,7 @@ const Button = ({ prompt, link, logo }) => {
     return (
         <Wrapper onClick = {handleClick}>
             <p>{prompt}</p>
-            {logo != null && <FontAwesomeIcon icon={logo} size='1x'/>}
+            {logo != null && <FontAwesomeIcon className='icon' icon={logo} size='lg'/>}
         </Wrapper>
     )
 };

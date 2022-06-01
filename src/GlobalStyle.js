@@ -6,14 +6,17 @@ export const GlobalStyle = createGlobalStyle`
         --maxWidth: 500px;
 
         --headerHeight: 80px;
-        --goldMain: hsl(51, 64, 52, 1);
+        --goldMain: hsl(51, 64%, 52%, 100%);
+        --goldTrans: hsl(51, 64%, 52%, 50%);
         --whiteMain: hsl(120, 100, 100, 1);
-        --blackMain: hsl(0, 3, 14, 1);
+        --blackMain: hsl(0, 3%, 14%, 100%);
         --grayMain: hsl(0, 0%, 50%, 100%);
+        --grayTransMid: hsl(0, 0%, 50%, 75%);
+        --grayTrans: hsl(0, 0%, 50%, 50%);
     }
 
     * {
-        outline: 2px solid red;
+        /* outline: 2px solid red; */
         margin: 0;
         padding: 0;
 

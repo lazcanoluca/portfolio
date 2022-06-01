@@ -20,7 +20,7 @@ const Projects = ({ projects }) => (
                                 <p>{project.description}</p>
                             </div>
                             <Buttons>
-                                <Button prompt = {'View page'} link = { project.url }/>
+                                <Button prompt = {'Open page'} link = { project.url }/>
                                 <Button prompt = {'View on '} link = { project.github } logo = { faGithub }/>
                             </Buttons>
                         </div>
