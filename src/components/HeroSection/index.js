@@ -6,7 +6,8 @@ const HeroSection = ({ image }) => (
     <Wrapper image = { image }>
         <Content>
             <Text>
-                HERO SECTION
+                <h1>Welcome</h1>
+                <p>to my corner of the internet :D</p>
             </Text>
         </Content>
     </Wrapper>

@@ -12,4 +12,12 @@ export const Title = styled.div`
 
 export const MessageForm = styled.div``;
 
-export const Mail = styled.div``;
+export const Mail = styled.div`
+    display: flex;
+    justify-content: space-around;
+`;
+
+export const Message = styled.div`
+    display: flex;
+    justify-content: space-around;
+`;

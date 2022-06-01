@@ -19,9 +19,19 @@ export const Grid = styled.div`
 export const Thumb = styled.div`
     background-size: cover;
     background-image: url(${({ image }) => image});
-    padding: 8rem 0 0;
+    padding: 4rem 1rem 0 1rem;
     border-radius: 1rem;
     div {
-        margin: 1rem;
+        /* margin: 1rem; */
     }
+    .descripcion {
+        height: 3rem;
+        overflow: hidden;
+    }
+`;
+
+export const Buttons = styled.div`
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
 `;

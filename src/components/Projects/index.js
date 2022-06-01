@@ -1,7 +1,9 @@
 import React from 'react';
 
-import { Wrapper, Title, Content, Grid, Thumb } from './Projects.styles';
+import { Wrapper, Title, Content, Grid, Thumb, Buttons } from './Projects.styles';
 import Button from '../Button';
+
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Projects = ({ projects }) => (
     <Wrapper>
@@ -14,9 +16,13 @@ const Projects = ({ projects }) => (
                     <Thumb image = {project.image}>
                         <div>
                             <h3>{project.name}</h3>
-                            <p>{project.description}</p>
-                            <Button prompt = {'View page'} link = { project.url }/>
-                            <Button prompt = {'View on GitHub'} link = { project.github }/>
+                            <div className='descripcion'>
+                                <p>{project.description}</p>
+                            </div>
+                            <Buttons>
+                                <Button prompt = {'View page'} link = { project.url }/>
+                                <Button prompt = {'View on '} link = { project.github } logo = { faGithub }/>
+                            </Buttons>
                         </div>
                     </Thumb>
                 ))}

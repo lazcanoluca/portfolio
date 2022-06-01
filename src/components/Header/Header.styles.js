@@ -23,7 +23,12 @@ export const Navigation = styled.div`
 
     li {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
+        padding: 5px;
+        margin: 20px 0 20px 0;
+        min-width: 70px;
     }
 `;
 
@@ -56,5 +61,7 @@ export const SocialMedia = styled.div`
     li {
         display: flex;
         align-items: center;
+        margin: 15px 10px 15px 10px;
+        padding: 10px;
     }
 `;

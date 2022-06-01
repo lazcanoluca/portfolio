@@ -13,9 +13,9 @@ const Social = () => (
         <Content>
             <SocialList>
                 <ul>
-                    <li><FontAwesomeIcon icon={faGithub} />GitHub</li>
-                    <li><FontAwesomeIcon icon={faTwitter} />Twitter</li>
-                    <li><FontAwesomeIcon icon={faLinkedin} />LinkedIn</li>
+                    <li><FontAwesomeIcon icon={faGithub} size='2x'/><p>GitHub</p></li>
+                    <li><FontAwesomeIcon icon={faTwitter} size='2x'/><p>Twitter</p></li>
+                    <li><FontAwesomeIcon icon={faLinkedin} size='2x'/><p>LinkedIn</p></li>
                 </ul>
             </SocialList>
         </Content>
