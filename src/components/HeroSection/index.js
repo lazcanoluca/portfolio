@@ -1,11 +1,41 @@
 import React from 'react';
 
-import { Wrapper, TopBar, Header, Circulo, Rectangulos, SVG, CentralBar, Name, Navigation } from './HeroSection.styles';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
+
+import { Wrapper,
+        TopBar,
+        Header,
+        Circulo,
+        Rectangulos,
+        SVG,
+        CentralBar,
+        Name,
+        Navigation,
+        Config,
+        Social,
+        Language,
+        Mode } from './HeroSection.styles';
 
 const HeroSection = ({ image }) => (
     <Wrapper image = { image }>
         <TopBar>
+            <Config>
+                <Language>
 
+                </Language>
+                <Mode>
+
+                </Mode>
+            </Config>
+            <Social>
+                <ul>
+                    <li><FontAwesomeIcon icon={faGithub} size = '2x' /></li>
+                    <li><FontAwesomeIcon icon={faTwitter} size = '2x' /></li>
+                    <li><FontAwesomeIcon icon={faLinkedin} size = '2x' /></li>
+                </ul>
+            </Social>
         </TopBar>
         <CentralBar>
             <SVG>

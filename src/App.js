@@ -8,11 +8,13 @@ import Footer from './components/Footer';
 
 // Styles
 import { GlobalStyle } from './GlobalStyle';
+import FontStyles from './fontStyles';
 
 function App() {
   return (
     <>
       <GlobalStyle />
+      <FontStyles />
       {/* <Header /> */}
       <Home />
       <Footer />

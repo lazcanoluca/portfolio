@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  src: local('Big Noodle'), url(./fonts/big_noodle_titling.ttf) format('truetype');
 }
 
 code {

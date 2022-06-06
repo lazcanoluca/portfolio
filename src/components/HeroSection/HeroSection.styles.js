@@ -13,8 +13,6 @@ export const Wrapper = styled.div`
     background-size: cover;
 `;
 
-export const TopBar = styled.div``;
-
 export const Header = styled.div`
 
     position: absolute;
@@ -96,6 +94,18 @@ export const Name = styled.div`
     /* bottom: calc(var(--circleHW)); */
     width: var(--circleHW);
     height: var(--circleHW);
+
+    user-select: none;
+    
+    h1 {
+        font-family: 'Big Noodle';
+        font-size: 7rem;
+    }
+
+    h2 {
+        font-family: 'Planet Estyle';
+        font-size: 2rem;
+    }
 `;
 
 export const Navigation = styled.div`
@@ -117,7 +127,50 @@ export const Navigation = styled.div`
         justify-content: space-evenly;
     }
 
-    /* li {
+    li {
         display: flex;
-    } */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        /* margin: 20px 0 20px 0; */
+        min-width: 70px;
+
+        font-family: 'Planet Estyle';
+        font-size: 2rem;
+
+        user-select: none;
+
+        :hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+
 `;
+
+export const TopBar = styled.div`
+    display: flex;
+    justify-content: space-between;
+`;
+
+export const Config = styled.div``;
+
+export const Social = styled.div`
+    ul {
+        list-style: none;
+        display: flex;
+    }
+
+    li {
+        color: var(--greenMain);
+        display: flex;
+        align-items: center;
+        margin: 15px 10px 15px 10px;
+        padding: 10px;
+    }
+`;
+
+export const Language = styled.div``;
+
+export const Mode = styled.div``;

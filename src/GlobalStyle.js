@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
+
 export const GlobalStyle = createGlobalStyle`
 
     :root {
@@ -33,7 +34,9 @@ export const GlobalStyle = createGlobalStyle`
 
         font-family: 'Cedarville Cursive', cursive;
         font-family: 'Piazzolla', serif;
-
+        /* font-family: 'Big Noodle';
+        font-family: 'Planet Estyle'; */
+        
         box-sizing: border-box;
         /* color: var(--whiteMain); */
 
