@@ -15,12 +15,18 @@ export const Wrapper = styled.div`
 
 export const TopBar = styled.div``;
 
-export const Header = styled.div``;
+export const Header = styled.div`
+
+    position: absolute;
+    /* top: calc( var(--circleHW)/2 ); */
+
+`;
 
 export const Circulo = styled.div`
 
     position: absolute;
-    top: calc( 50vh - var(--circleHW)/2 );
+
+    /* top: calc( 50vh - var(--circleHW)/2 ); */
     left: calc( 27vw - var(--circleHW)/2 );
 
     svg {
@@ -39,8 +45,9 @@ export const Circulo = styled.div`
 `;
 
 export const Rectangulos = styled.div`
+
     position: absolute;
-    top: calc( 50vh - var(--heightLineTotal)/2 );
+    top: calc( var(--circleHW)/2 - var(--heightLineTotal)/2 );
 
     svg {
         width: 100vw;
@@ -72,8 +79,45 @@ export const Rectangulos = styled.div`
 
 export const SVG = styled.div``;
 
-export const CentralBar = styled.div``;
+export const CentralBar = styled.div`
+    position: absolute;
+    top: calc( 50vh - var(--circleHW)/2 );
+    max-width: 100%;
+    /* overflow: hidden; */
+`;
 
-export const Name = styled.div``;
+export const Name = styled.div`
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: calc( 27vw - var(--circleHW)/2);
+    /* bottom: calc(var(--circleHW)); */
+    width: var(--circleHW);
+    height: var(--circleHW);
+`;
 
-export const Navigation = styled.div``;
+export const Navigation = styled.div`
+    position: absolute;
+    height: var(--heightLineTotal);
+    display: flex;
+    width: 100%;
+    /* flex-direction: column; */
+    align-items: center;
+    /* justify-content: space-between; */
+    top: calc( var(--heightLineTotal)/2 );
+    left: calc( 27vw + var(--circleHW)/2);
+    width: calc( 100vw - (27vw + var(--circleHW)/2));
+
+    ul {
+        width:100%;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /* li {
+        display: flex;
+    } */
+`;

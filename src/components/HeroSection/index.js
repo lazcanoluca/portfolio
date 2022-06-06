@@ -25,10 +25,15 @@ const HeroSection = ({ image }) => (
             </SVG>
             <Header>
                 <Name>
-
+                    <h1>Luca</h1>
+                    <h2>Jr Web Dev</h2>
                 </Name>
                 <Navigation>
-
+                    <ul>
+                        <li>My projects</li>
+                        <li>Contact Me</li>
+                        <li>About Me</li>
+                    </ul>
                 </Navigation>
             </Header>
         </CentralBar>

@@ -27,7 +27,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     * {
-        /* outline: 2px solid red; */
+        /* outline: 1.5px solid red; */
         margin: 0;
         padding: 0;
 
@@ -56,6 +56,10 @@ export const GlobalStyle = createGlobalStyle`
         p {
             font-size: 1rem;
         }
+    }
+
+    body {
+        overflow-x: hidden;
     }
 
 `;
