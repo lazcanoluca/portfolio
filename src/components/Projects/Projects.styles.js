@@ -1,14 +1,46 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-    padding: 20px;
+    display: flex;  /* padding: 20px; */
+    padding: 0;
 `;
 
 export const Title = styled.div`
-    margin-bottom: 15px;
+    /* display: inline-block; */
+    /* position: absolute; */
+    height: 100vh;
+    width: 15rem;
+    padding: 0;
+    /* top: 0; */
+    /* left: 100vw; */
+    background: var(--blackMain);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    h1 {
+        color: var(--greenMain);
+        font-family: 'Big Noodle';
+        font-size: 11rem;
+        white-space: nowrap;
+        /* width: 100%;
+        height: 100%; */
+        /* letter-spacing: .7rem; */
+
+        /* transform-origin: top left; */
+        transform: rotate(90deg);
+    }
+    /* margin-bottom: 15px; */
 `;
 
-export const Content = styled.div``;
+export const Content = styled.div`
+    /* order: -1; */
+    /* width: calc( 100vw - 15rem); */
+    /* display: inline-block; */
+    flex-grow: 1;
+
+`;
 
 export const Grid = styled.div`
     display: grid;

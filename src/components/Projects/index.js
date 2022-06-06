@@ -7,11 +7,10 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Projects = ({ projects }) => (
     <Wrapper>
-        <Title>
-            <h2>Projects</h2>
-        </Title>
-        <Content>
-            <Grid>
+
+        <>
+        {/* <Content>
+            {/* <Grid>
                 {projects.map(project => (
                     <Thumb image = {project.image}>
                         <div>
@@ -26,8 +25,15 @@ const Projects = ({ projects }) => (
                         </div>
                     </Thumb>
                 ))}
-            </Grid>
+            </Grid> */}
+        {/* </Content> */}
+        </>
+        <Content>
+            HOLA
         </Content>
+        <Title>
+            <h1>my projects</h1>
+        </Title>
     </Wrapper>
 );
 
