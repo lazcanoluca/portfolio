@@ -1,15 +1,37 @@
 import React from 'react';
 
-import { Wrapper, Content, Text } from './HeroSection.styles';
+import { Wrapper, TopBar, Header, Circulo, Rectangulos, SVG, CentralBar, Name, Navigation } from './HeroSection.styles';
 
 const HeroSection = ({ image }) => (
     <Wrapper image = { image }>
-        <Content>
-            <Text>
-                <h1>Welcome</h1>
-                <p>to my corner of the internet :D</p>
-            </Text>
-        </Content>
+        <TopBar>
+
+        </TopBar>
+        <CentralBar>
+            <SVG>
+                <Rectangulos>
+                    <svg className='fondo'>
+                        <rect className='rect-fondo' />
+                    </svg>
+                    <svg className='top'>
+                        <rect className='rect-top' />
+                    </svg>
+                </Rectangulos>
+                <Circulo>
+                    <svg>
+                        <circle />
+                    </svg>
+                </Circulo>
+            </SVG>
+            <Header>
+                <Name>
+
+                </Name>
+                <Navigation>
+
+                </Navigation>
+            </Header>
+        </CentralBar>
     </Wrapper>
     // <div>
     //     Hero section

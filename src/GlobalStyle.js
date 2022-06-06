@@ -8,11 +8,22 @@ export const GlobalStyle = createGlobalStyle`
         --headerHeight: 80px;
         --goldMain: hsl(51, 64%, 52%, 100%);
         --goldTrans: hsl(51, 64%, 52%, 50%);
-        --whiteMain: hsl(120, 100, 100, 1);
+        --whiteMain: hsl(120, 100%, 100%, 100%);
         --blackMain: hsl(0, 3%, 14%, 100%);
         --grayMain: hsl(0, 0%, 50%, 100%);
         --grayTransMid: hsl(0, 0%, 50%, 75%);
         --grayTrans: hsl(0, 0%, 50%, 50%);
+
+        --blackOpacity: rgba(0, 0, 0, 50%);
+
+        --greenMain: hsl(99, 100%, 42%, 100%);
+
+        --circleRadius: 130px;
+        --stroke: 20px;
+        --circleHW: calc( 2*var(--circleRadius) + var(--stroke));
+
+        --heightLine: 100px;
+        --heightLineTotal: calc( var(--heightLine) + 2*var(--stroke));
     }
 
     * {
