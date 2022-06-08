@@ -8,11 +8,10 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 const Projects = ({ projects }) => (
     <Wrapper>
 
-        <>
-        {/* <Content>
-            {/* <Grid>
+        <Content>
+            <Grid>
                 {projects.map(project => (
-                    <Thumb image = {project.image}>
+                    <Thumb image = {project.image} key = {project.name} className = {`project_${projects.indexOf(project)}`}>
                         <div>
                             <h3>{project.name}</h3>
                             <div className='descripcion'>
@@ -25,12 +24,46 @@ const Projects = ({ projects }) => (
                         </div>
                     </Thumb>
                 ))}
-            </Grid> */}
-        {/* </Content> */}
-        </>
-        <Content>
-            HOLA
+            </Grid>
         </Content>
+        {/* <Content>
+            <p>In about i want the text to skip like slides when scroll, with certain smoothness</p>
+            <p>f</p>
+            <p>grsde</p>
+            <p>In about i want the text to skip like slides when scroll, with certain smoothness</p>
+            <p>f</p>
+            <p>grsde</p>
+            <p>In about i want the text to skip like slides when scroll, with certain smoothness</p>
+            <p>f</p>
+            <p>grsde</p>
+            <p>In about i want the text to skip like slides when scroll, with certain smoothness</p>
+            <p>f</p>
+            <p>grsde</p>
+            <p>In about i want the text to skip like slides when scroll, with certain smoothness</p>
+            <p>f</p>
+            <p>grsde</p>
+            <p>In about i want the text to skip like slides when scroll, with certain smoothness</p>
+            <p>f</p>
+            <p>grsde</p>
+            <p>In about i want the text to skip like slides when scroll, with certain smoothness</p>
+            <p>f</p>
+            <p>grsde</p>
+            <p>In about i want the text to skip like slides when scroll, with certain smoothness</p>
+            <p>f</p>
+            <p>grsde</p>
+            <p>In about i want the text to skip like slides when scroll, with certain smoothness</p>
+            <p>f</p>
+            <p>grsde</p>
+            <p>In about i want the text to skip like slides when scroll, with certain smoothness</p>
+            <p>f</p>
+            <p>grsde</p>
+            <p>In about i want the text to skip like slides when scroll, with certain smoothness</p>
+            <p>f</p>
+            <p>grsde</p>
+            <p>In about i want the text to skip like slides when scroll, with certain smoothness</p>
+            <p>f</p>
+            <p>grsde</p>
+        </Content> */}
         <Title>
             <h1>my projects</h1>
         </Title>

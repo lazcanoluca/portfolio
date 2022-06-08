@@ -35,24 +35,48 @@ export const Title = styled.div`
 `;
 
 export const Content = styled.div`
-    /* order: -1; */
-    /* width: calc( 100vw - 15rem); */
-    /* display: inline-block; */
+    padding: 3rem;
     flex-grow: 1;
 
 `;
 
 export const Grid = styled.div`
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 2rem;
+    /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: .5rem;
+
+    
+    .project_0 {
+        grid-area: featured; 
+    }
+    
+    .project_1 {
+        /* grid-area: <name> | <row-start> / <column-start> / <row-end> / <column-end>; */
+        grid-area: featured_2;
+    }
+    
+    .project_2 {
+        
+    }
+    
+    .project_3 {
+        grid-area: 3 / 2 / 4 / 4;
+    }
+
+    grid-template-areas:
+        "featured featured featured_2"
+        "featured featured featured_2"
+        "featured featured featured_2";
+
 `;
 
 export const Thumb = styled.div`
     background-size: cover;
     background-image: url(${({ image }) => image});
-    padding: 4rem 1rem 0 1rem;
-    border-radius: 1rem;
+    /* padding: 4rem 1rem 0 1rem; */
+    border-radius: .25rem;
     div {
         /* margin: 1rem; */
     }

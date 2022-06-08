@@ -28,7 +28,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     * {
-        /* outline: 1.5px solid red; */
+        outline: 1.5px solid red;
         margin: 0;
         padding: 0;
 
