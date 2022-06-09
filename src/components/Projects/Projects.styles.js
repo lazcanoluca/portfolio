@@ -22,7 +22,7 @@ export const Title = styled.div`
     h1 {
         color: var(--greenMain);
         font-family: 'Big Noodle';
-        font-size: 11rem;
+        font-size: 10rem;
         white-space: nowrap;
         /* width: 100%;
         height: 100%; */
@@ -44,31 +44,33 @@ export const Grid = styled.div`
     display: grid;
     /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 150px);
     grid-gap: .5rem;
 
     
     .project_0 {
-        grid-area: featured; 
+        grid-area: featured1; 
     }
     
     .project_1 {
         /* grid-area: <name> | <row-start> / <column-start> / <row-end> / <column-end>; */
-        grid-area: featured_2;
+        grid-area: featured2;
     }
     
     .project_2 {
-        
+        grid-area: featured3;
     }
     
     .project_3 {
-        grid-area: 3 / 2 / 4 / 4;
+        grid-area: featured4;
     }
 
     grid-template-areas:
-        "featured featured featured_2"
-        "featured featured featured_2"
-        "featured featured featured_2";
+        "featured1 featured1 featured2"
+        "featured1 featured1 featured2"
+        "featured1 featured1 featured2"
+        "featured3 featured4 featured4"
+        "featured3 featured4 featured4";
 
 `;
 
