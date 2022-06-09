@@ -1,5 +1,18 @@
 import { createGlobalStyle } from 'styled-components';
 
+// document.getElementById('parallax').animate(
+//     { transform: ['translateY(0)', 'translateY(100px)']},
+//     { duration: 10000, // Totally arbitrary!
+//       fill: 'both',
+//       timeline: new ScrollTimeline({
+//           scrollOffsets: [
+//               new CSSUnitValue(0, 'px'),
+//               new CSSUnitValue(200, 'px')
+//           ]
+//       })
+//     });
+    
+
 
 export const GlobalStyle = createGlobalStyle`
 
