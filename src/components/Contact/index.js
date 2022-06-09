@@ -5,7 +5,7 @@ import { Wrapper, Title, Content, MessageForm, Mail, Message } from './Contact.s
 const Contact = () => (
     <Wrapper>
         <Title>
-            <h2>Contact Me</h2>
+            <h1>Contact Me</h1>
         </Title>
         <Content>
             {/* <Message>
@@ -15,8 +15,8 @@ const Contact = () => (
                 </MessageForm>
             </Message> */}
             <Mail>
-                <p>Click to copy my email address to your clipboard</p>
-                <p>lazcanoluca@gmail.com</p>
+                <p className='mail'>lazcanoluca@gmail.com</p>
+                <p className='phone'>+54 9 11 xxxx xxxx</p>
             </Mail>
         </Content>
     </Wrapper>

@@ -18,7 +18,7 @@
             "url": "https://react-movie-catalog.netlify.app/",
             "github": "https://github.com/lazcanoluca/movie-browser-rmdb",
             "stack": ["html", "css", "js", "react"],
-            "image": "url or path for image"
+            "image": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/a4f94e3fb38b69a07e10ef9f2068fe0f_a20a3124-ebb0-443c-b81d-81a466679fce_480x.progressive.jpg?v=1573588821https://cdn.shopify.com/s/files/1/0057/3728/3618/products/a4f94e3fb38b69a07e10ef9f2068fe0f_a20a3124-ebb0-443c-b81d-81a466679fce_480x.progressive.jpg?v=1573588821"
         },
         {
             "name": "project 3",
@@ -42,6 +42,26 @@
         },
         {
             "name": "project 5",
+            "description": "project number 5 description",
+            "year": 2020,
+            "month": 9,
+            "url": "some url",
+            "github": "githu url",
+            "stack": ["html", "css", "js", "react"],
+            "image": "url or path for image"
+        },
+        {
+            "name": "project 6",
+            "description": "project number 5 description",
+            "year": 2020,
+            "month": 9,
+            "url": "some url",
+            "github": "githu url",
+            "stack": ["html", "css", "js", "react"],
+            "image": "url or path for image"
+        },
+        {
+            "name": "project 7",
             "description": "project number 5 description",
             "year": 2020,
             "month": 9,

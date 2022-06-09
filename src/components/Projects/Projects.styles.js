@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
     display: flex;  /* padding: 20px; */
     padding: 0;
+    background: var(--lightGrayMain);
 `;
 
 export const Title = styled.div`
@@ -37,55 +38,80 @@ export const Title = styled.div`
 export const Content = styled.div`
     padding: 3rem;
     flex-grow: 1;
-
 `;
 
 export const Grid = styled.div`
     display: grid;
     /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 150px);
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-rows: repeat(7, 150px);
+    /* grid-template-rows: 150px; */
     grid-gap: .5rem;
 
     
     .project_0 {
-        grid-area: featured1; 
+        grid-area: featured0; 
     }
     
     .project_1 {
         /* grid-area: <name> | <row-start> / <column-start> / <row-end> / <column-end>; */
-        grid-area: featured2;
+        grid-area: featured1;
     }
     
     .project_2 {
-        grid-area: featured3;
+        grid-area: featured2;
     }
     
     .project_3 {
+        grid-area: featured3;
+    }
+
+    .project_4 {
         grid-area: featured4;
     }
 
+    .project_5 {
+        grid-area: featured5;
+    }
+
+    .project_6 {
+        grid-area: featured6;
+    }
+
     grid-template-areas:
-        "featured1 featured1 featured2"
-        "featured1 featured1 featured2"
-        "featured1 featured1 featured2"
-        "featured3 featured4 featured4"
-        "featured3 featured4 featured4";
+        "featured0 featured0 featured1"
+        "featured0 featured0 featured1"
+        "featured0 featured0 featured1"
+        "featured2 featured3 featured3"
+        "featured2 featured3 featured3"
+        "featured4 featured5 featured6"
+        "featured4 featured5 featured6";
 
 `;
 
 export const Thumb = styled.div`
-    background-size: cover;
     background-image: url(${({ image }) => image});
+    background-size: cover;
     /* padding: 4rem 1rem 0 1rem; */
     border-radius: .25rem;
-    div {
-        /* margin: 1rem; */
+
+    display: flex;
+    flex-direction: column;
+
+    .relleno {
+        /* height: 100%; */
+        flex-grow: 1;
     }
+
     .descripcion {
         height: 3rem;
         overflow: hidden;
     }
+
+   /* .buttons {
+       display: flex;
+       justify-content: flex-end;
+    } */
 `;
 
 export const Buttons = styled.div`

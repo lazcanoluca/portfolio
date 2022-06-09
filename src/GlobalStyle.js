@@ -15,6 +15,9 @@ export const GlobalStyle = createGlobalStyle`
         --grayTransMid: hsl(0, 0%, 50%, 75%);
         --grayTrans: hsl(0, 0%, 50%, 50%);
 
+        --darkGrayMain: hsl(0, 0%, 25%, 100%);
+        --lightGrayMain: hsl(0, 0%, 85%, 100%);
+
         --blackOpacity: rgba(0, 0, 0, 50%);
 
         --greenMain: hsl(99, 100%, 42%, 100%);
@@ -28,7 +31,7 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     * {
-        outline: 1.5px solid red;
+        /* outline: 1.5px solid red; */
         margin: 0;
         padding: 0;
 
