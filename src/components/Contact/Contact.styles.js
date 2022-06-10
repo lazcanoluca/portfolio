@@ -15,20 +15,23 @@ export const Title = styled.div`
     /* display: inline-block; */
     /* position: absolute; */
     height: 100vh;
-    width: 15rem;
+    width: 13rem;
+    width: calc(.17*100vw);
     padding: 0;
     /* top: 0; */
     /* left: 100vw; */
     background: var(--greenMain);
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
     
     h1 {
+        /* max-height: 100%; */
+        /* max-width: 100%; */
         color: var(--blackMain);
         font-family: 'Big Noodle';
-        font-size: 10rem;
+        font-size: calc(.25*100vh);
         white-space: nowrap;
         /* width: 100%;
         height: 100%; */

@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import 'https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js';
+// import 'https://flackr.github.io/scroll-timeline/dist/scroll-timeline.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -10,7 +10,8 @@ export const Title = styled.div`
     /* display: inline-block; */
     /* position: absolute; */
     height: 100vh;
-    width: 15rem;
+    /* min-height: 500px; */
+    width: calc(.17*100vw);
     padding: 0;
     /* top: 0; */
     /* left: 100vw; */
@@ -23,7 +24,7 @@ export const Title = styled.div`
     h1 {
         color: var(--greenMain);
         font-family: 'Big Noodle';
-        font-size: 10rem;
+        font-size: calc(.25*100vh);
         white-space: nowrap;
         /* width: 100%;
         height: 100%; */

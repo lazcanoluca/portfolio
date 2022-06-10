@@ -6,7 +6,7 @@ import projects from '../Projects/projects.json';
 import HeroSection from './HeroSection';
 import Contact from './Contact';
 import Projects from './Projects';
-// import About from './About';
+import About from './About';
 import Social from './Social';
 // import Resume from './Resume';
 
@@ -26,6 +26,7 @@ const Home = () => {
             <Projects projects = { projects.projects } />
             <Contact />
             <Social />
+            <About />
         </>
     )
 };
