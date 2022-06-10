@@ -7,9 +7,6 @@ import { Wrapper, Title, Content, SocialList } from './Social.styles';
 
 const Social = () => (
     <Wrapper>
-        <Title>
-            <h2>You can find me on</h2>
-        </Title>
         <Content>
             <SocialList>
                 <ul>
@@ -19,6 +16,9 @@ const Social = () => (
                 </ul>
             </SocialList>
         </Content>
+        <Title>
+            <h1>Find me on</h1>
+        </Title>
     </Wrapper>
 );
 
