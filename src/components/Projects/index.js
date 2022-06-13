@@ -4,6 +4,7 @@ import { Wrapper, Title, Content, Grid, Thumb, Buttons } from './Projects.styles
 import Button from '../Button';
 
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+// import { useInView } from 'react-intersection-observer';
 
 const Projects = ({ projects }) => (
     <Wrapper>
@@ -27,7 +28,7 @@ const Projects = ({ projects }) => (
             </Grid>
         </Content>
         <Title>
-            <h1>my projects</h1>
+            <h1 /*ref={ref} className={`${inView ? 'stick' : ''}`}*/>my projects</h1>
         </Title>
     </Wrapper>
 );
