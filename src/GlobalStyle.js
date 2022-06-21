@@ -21,6 +21,7 @@ export const GlobalStyle = createGlobalStyle`
         --blackOpacity: rgba(0, 0, 0, 50%);
 
         --greenMain: hsl(99, 100%, 42%, 100%);
+        --greenMainTrans: hsl(99, 100%, 42%, 75%);
 
         --circleRadius: 130px;
         --stroke: 20px;
@@ -28,6 +29,8 @@ export const GlobalStyle = createGlobalStyle`
 
         --heightLine: 100px;
         --heightLineTotal: calc( var(--heightLine) + 2*var(--stroke));
+
+        font-size: 100%;
     }
 
     * {
@@ -35,8 +38,8 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
 
-        font-family: 'Cedarville Cursive', cursive;
-        font-family: 'Piazzolla', serif;
+        /* font-family: 'Cedarville Cursive', cursive;
+        font-family: 'Piazzolla', serif; */
         /* font-family: 'Big Noodle';
         font-family: 'Planet Estyle'; */
         

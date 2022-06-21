@@ -27,7 +27,7 @@
             "month": 9,
             "url": "some url",
             "github": "githu url",
-            "stack": ["html", "css", "js", "react"],
+            "stack": [],
             "image": "url or path for image"
         },
         {
@@ -37,7 +37,7 @@
             "month": 9,
             "url": "some url",
             "github": "githu url",
-            "stack": ["html", "css", "js", "react"],
+            "stack": [],
             "image": "url or path for image"
         },
         {
@@ -47,7 +47,7 @@
             "month": 9,
             "url": "some url",
             "github": "githu url",
-            "stack": ["html", "css", "js", "react"],
+            "stack": [],
             "image": "url or path for image"
         },
         {
@@ -57,7 +57,7 @@
             "month": 9,
             "url": "some url",
             "github": "githu url",
-            "stack": ["html", "css", "js", "react"],
+            "stack": [],
             "image": "url or path for image"
         },
         {
@@ -67,7 +67,7 @@
             "month": 9,
             "url": "some url",
             "github": "githu url",
-            "stack": ["html", "css", "js", "react"],
+            "stack": [],
             "image": "url or path for image"
         }
 ]

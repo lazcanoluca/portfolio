@@ -5,7 +5,8 @@ export const Wrapper = styled.button`
     height: 2.2rem;
     border-radius: 1.1rem;
     border: 2px solid var(--blackMain);
-    background-color: var(--grayTrans);
+    background-color: ${props => props.type == 'primary' ? 'var(--greenMain)' : 'var(--lightGrayMain)'};
+    /* background-color: var(--greenMain); */
 
     display: flex;
     align-items: center;
@@ -13,7 +14,7 @@ export const Wrapper = styled.button`
 
     :hover {
         cursor: pointer;
-        background-color: var(--grayTransMid);
+        background-color: ${props => props.type == 'primary' ? 'var(--greenMainTrans)' : 'var(--grayTransMid)'};
     }
 
     .icon {
@@ -21,6 +22,5 @@ export const Wrapper = styled.button`
         /* padding-top: .1rem; */
         font-size: 1.5rem;
     }
-
 
 `;

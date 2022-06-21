@@ -1,33 +1,23 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-    display: flex;  /* padding: 20px; */
-    /* align-items: stretch; */
+    display: flex;
     padding: 0;
     background: var(--lightGrayMain);
 `;
 
 export const Title = styled.div`
-    /* display: inline-block; */
-    /* position: absolute; */
-    /* height: 100vh; */
-    /* height: 100%; */
-    /* min-height: 500px; */
     width: calc(.17*100vw);
     padding: 0;
-    /* top: 0; */
-    /* left: 100vw; */
     background: var(--blackMain);
 
     position: relative;
 
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     align-items: center;
     
     .relleno {
-        /* border: 2px solid blue; */
         height: 100%;
         width: 100%;
         width: calc(.17*100vw);
@@ -41,27 +31,10 @@ export const Title = styled.div`
         font-family: 'Big Noodle';
         font-size: calc(.25*100vh);
         white-space: nowrap;
-        /* height: 100vh; */
-        /* width: 100%;
-        height: 100%; */
-        /* letter-spacing: .7rem; */
-
-        /* transform-origin: top left;
-        transform: rotate(90deg); */
-        /* position: relative;
-        left: calc(.17*100vw);
-        height: calc(.17*100vw);
-        width: 100vh;
-        margin: 0 auto; */
-        /* width: 0rem; */
-        /* top: 12rem; */
     }
-    /* margin-bottom: 15px; */
 
     .title-wrapper {
         position: absolute;
-        /* top: 0; */
-        /* border: 2px solid cyan; */
         height: 100vh;
         width: calc(.17*100vw);
 
@@ -72,34 +45,21 @@ export const Title = styled.div`
 
     .top {
         position: absolute;
-        /* h1 {
-            color: orange;
-        } */
         top: 0;
     }
 
     .bottom {
         position: absolute;
-        /* h1 {
-            color: magenta;
-        } */
         bottom: 0;
     }
 
     .stick {
         position: fixed;
-        /* h1 {
-            color: cyan;
-        } */
         top: 0;
     }
 
     .wrapper-wrapper {
-        /* border: 1px solid cyan; */
-
-        /* transform-origin: top left; */
         transform: rotate(90deg);
-
     }
 
     .sentinel {
@@ -120,25 +80,36 @@ export const Title = styled.div`
 export const Content = styled.div`
     padding: 3rem;
     flex-grow: 1;
-    /* background: blue; */
 `;
 
 export const Grid = styled.div`
     display: grid;
-    /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
     grid-template-columns: repeat(3, minmax(200px, 1fr));
     grid-template-rows: repeat(7, 150px);
-    /* grid-template-rows: 150px; */
     grid-gap: .5rem;
 
     
     .project_0 {
-        grid-area: featured0; 
+        grid-area: featured0;
+        .descripcion {
+            height: 5rem !important;
+        }
+        h3 {
+            font-size: 4rem;
+            max-width: 10rem;
+        }
     }
     
     .project_1 {
         /* grid-area: <name> | <row-start> / <column-start> / <row-end> / <column-end>; */
         grid-area: featured1;
+        .descripcion {
+            height: 5rem !important;
+        }
+        h3 {
+            font-size: 4rem;
+            max-width: 10rem;
+        }
     }
     
     .project_2 {
@@ -181,24 +152,61 @@ export const Thumb = styled.div`
     display: flex;
     flex-direction: column;
 
+    overflow: hidden;
+
+    .stack {
+        display: flex;
+
+        ul {
+            padding-right: .5rem;
+            flex-grow: 0;
+            background: var(--grayTransMid);
+            border-radius: 0 0 2rem 0;
+        }
+        
+        .icon {
+                width: 2rem;
+                margin: .3rem .5rem;
+            }
+    }
+    
+    .bottom {
+        padding: 2rem 1rem 1rem 1rem;
+        background: linear-gradient(
+            to top,
+            rgba(0, 0, 0, .65) min(7rem, 40%),
+            rgba(0, 0, 0, 0) min(12rem, 75%)
+        );
+    }
+
     .relleno {
         /* height: 100%; */
         flex-grow: 1;
     }
 
-    .descripcion {
-        height: 3rem;
-        overflow: hidden;
+    h3 {
+        color: var(--greenMain);
+        font-family: 'Big Noodle';
+        font-size: 3rem;
+        text-shadow: 3px 3px var(--blackMain);
     }
 
-   /* .buttons {
-       display: flex;
-       justify-content: flex-end;
-    } */
+    .descripcion {
+        display: flex;
+        align-items: center;
+        margin: auto;
+        height: 3rem;
+        overflow: hidden;
+        color: var(--lightGrayMain);
+        font-family: 'Courier Prime';
+    }
+
 `;
 
 export const Buttons = styled.div`
-    padding: 1rem;
+    /* padding: 1rem; */
+    padding-top: .5rem;
     display: flex;
     justify-content: space-evenly;
+
 `;

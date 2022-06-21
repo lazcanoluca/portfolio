@@ -10,9 +10,9 @@ const Social = () => (
         <Content>
             <SocialList>
                 <ul>
-                    <li><FontAwesomeIcon icon={faGithub} size='2x'/><p>GitHub</p></li>
-                    <li><FontAwesomeIcon icon={faTwitter} size='2x'/><p>Twitter</p></li>
-                    <li><FontAwesomeIcon icon={faLinkedin} size='2x'/><p>LinkedIn</p></li>
+                    <li className='github'><FontAwesomeIcon icon={faGithub} size='5x' className='icon' /><p>GitHub</p></li>
+                    <li className='twitter'><FontAwesomeIcon icon={faTwitter} size='5x' className='icon' /><p>Twitter</p></li>
+                    <li className='linkedin'><FontAwesomeIcon icon={faLinkedin} size='5x' className='icon' /><p>LinkedIn</p></li>
                 </ul>
             </SocialList>
         </Content>

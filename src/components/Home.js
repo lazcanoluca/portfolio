@@ -8,6 +8,7 @@ import Contact from './Contact';
 import Projects from './Projects';
 import About from './About';
 import Social from './Social';
+import Stack from './Stack';
 // import Resume from './Resume';
 
 
@@ -27,6 +28,7 @@ const Home = () => {
             <Contact />
             <Social />
             <About />
+            <Stack />
         </>
     )
 };

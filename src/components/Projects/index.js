@@ -3,8 +3,17 @@ import React, { useEffect, useState } from 'react';
 import { Wrapper, Title, Content, Grid, Thumb, Buttons } from './Projects.styles';
 import Button from '../Button';
 
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faHtml5, faCss3, faReact, faJs } from '@fortawesome/free-brands-svg-icons';
 import { useInView } from 'react-intersection-observer';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import html from '../../images/html.svg';
+import css from '../../images/css.svg';
+import js from '../../images/js.svg';
+import react from '../../images/react.svg';
+import python from '../../images/python.svg';
+import haskell from '../../images/haskell.svg';
+import c from '../../images/c.svg';
 
 const Projects = ({ projects }) => {
 
@@ -50,15 +59,24 @@ const Projects = ({ projects }) => {
             <Grid>
                 {projects.map(project => (
                     <Thumb image = {project.image} key = {project.name} className = {`project_${projects.indexOf(project)}`}>
+                        <div className='stack'>
+                            <ul>
+                                {project.stack.includes('html') && <img className='icon' src={html} />}
+                                {project.stack.includes('css') && <img className='icon' src={css} />}
+                                {project.stack.includes('js') && <img className='icon' src={js} />}
+                                {project.stack.includes('react') && <img className='icon' src={react} />}
+                            </ul>
+                            <div className='relleno'></div>
+                        </div>
                         <div className='relleno'></div>
-                        <div>
+                        <div className='bottom'>
                             <h3>{project.name}</h3>
                             <div className='descripcion'>
                                 <p>{project.description}</p>
                             </div>
                             <Buttons className='buttons'>
-                                <Button prompt = {'Open page'} link = { project.url }/>
-                                <Button prompt = {'View on '} link = { project.github } logo = { faGithub }/>
+                                <Button type={'primary'} prompt = {'Open page'} link = { project.url }/>
+                                <Button type={'secondary'} prompt = {'View on '} link = { project.github } logo = { faGithub }/>
                             </Buttons>
                         </div>
                     </Thumb>

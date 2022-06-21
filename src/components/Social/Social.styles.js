@@ -4,6 +4,7 @@ export const Wrapper = styled.div`
     display: flex;  /* padding: 20px; */
     padding: 0;
     background: var(--lightGrayMain);
+    /* background: var(--greenMain); */
 `;
 
 export const Title = styled.div`
@@ -43,17 +44,40 @@ export const Content = styled.div`
 `;
 
 export const SocialList = styled.div`
+
+    height: 100%;
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     ul {
+        flex-grow: 1;
         display: flex;
-        justify-content: center;
+        height: 100%;
+        justify-content: space-evenly;
+        align-items: center;
         list-style: none;
+        align-content: stretch;
+        flex-wrap: wrap;
     }
+
     li {
         display: flex;
         align-items: center;
         padding: 10px 20px;
+        /* color: white; */
     }
+
+    li:hover {
+        cursor: pointer;
+    }
+
     p {
-        margin-left: 10px;
+        margin-left: 30px;
+        font-size: 5rem;
+        font-family: 'Big Noodle';
+        user-select: none;
     }
+
 `;

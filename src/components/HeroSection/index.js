@@ -20,6 +20,7 @@ import { Wrapper,
 
 const HeroSection = ({ image }) => (
     <Wrapper image = { image }>
+        {/* <img className='background' src={image}/> */}
         <TopBar>
             <Config>
                 <Language>

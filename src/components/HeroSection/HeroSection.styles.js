@@ -10,7 +10,27 @@ export const Wrapper = styled.div`
         rgba(0, 0, 0, .65) 30%,
         rgba(0, 0, 0, .65) 100%
         ), url(${({ image }) => image});
+    /* background- */
     background-size: cover;
+/* 
+    position: relative;
+    perspective: 10px;
+    /* overflow-x: hidden; */
+    /* overflow-y: auto; */
+    overflow: hidden;
+    transform-style: preserve-3d;
+    z-index: -1; */
+/* 
+    .background {
+        transform: translateZ(-10px) scale(2);
+
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        z-index: -1;
+    } */
+
 `;
 
 export const Header = styled.div`
