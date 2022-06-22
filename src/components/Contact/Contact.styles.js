@@ -47,7 +47,7 @@ export const Title = styled.div`
 
 export const MessageForm = styled.div``;
 
-export const Mail = styled.div`
+export const Info = styled.div`
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -60,10 +60,14 @@ export const Mail = styled.div`
         color: var(--greenMain);
         user-select: none;
         text-shadow: 2px 2px black;
+
         :hover {
             text-shadow: 4px 4px black;
             cursor: pointer;
+
+            
         }
+
     }
 `;
 

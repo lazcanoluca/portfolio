@@ -12,16 +12,17 @@ export const Wrapper = styled.div`
         ), url(${({ image }) => image});
     /* background- */
     background-size: cover;
+    overflow-y: hidden;
 /* 
     position: relative;
     perspective: 10px;
     /* overflow-x: hidden; */
     /* overflow-y: auto; */
-    overflow: hidden;
+    /* overflow: hidden;
     transform-style: preserve-3d;
     z-index: -1; */
-/* 
-    .background {
+/*  */
+    /* .background {
         transform: translateZ(-10px) scale(2);
 
         position: absolute;
@@ -29,7 +30,7 @@ export const Wrapper = styled.div`
         width: 100%;
         object-fit: cover;
         z-index: -1;
-    } */
+    } */ */
 
 `;
 
@@ -157,7 +158,7 @@ export const Navigation = styled.div`
         min-width: 70px;
 
         font-family: 'Planet Estyle';
-        font-size: 2rem;
+        font-size: 1.7rem;
 
         user-select: none;
 

@@ -25,10 +25,10 @@ const Home = () => {
             {/* <HeroSection image = { "https://solarsystem.nasa.gov/system/news_items/main_images/265_P50142.jpg" }/> */}
             <HeroSection image = { train_path }/>
             <Projects projects = { projects.projects } />
-            <Contact />
-            <Social />
             <About />
             <Stack />
+            <Contact />
+            <Social />
         </>
     )
 };

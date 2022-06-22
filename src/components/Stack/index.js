@@ -71,8 +71,9 @@ const Social = () => {
                 <div className='description'>
                     <h2>HTML 5</h2>
                     <div>
-                        <p>lol</p>
-                        <p>lol 2</p>
+                        <p>{'>'}Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p>{'>'}sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>{'>'}Ut enim ad minim veniam,</p>
                     </div>
                 </div>
             </div>
@@ -81,8 +82,10 @@ const Social = () => {
                 <div className='description'>
                     <h2>CSS 3</h2>
                     <div>
-                        <p>lol</p>
-                        <p>lol 2</p>
+                        <p>{'>'}Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p>{'>'}sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>{'>'}Ut enim ad minim veniam,</p>
+                        <p>{'>'}quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
             </div>
@@ -91,8 +94,8 @@ const Social = () => {
                 <div className='description'>
                     <h2>JavaScript</h2>
                     <div>
-                        <p>lol</p>
-                        <p>lol 2</p>
+                        <p>{'>'}Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p>{'>'}sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
             </div>
@@ -101,8 +104,7 @@ const Social = () => {
                 <div className='description'>
                     <h2>React</h2>
                     <div>
-                        <p>lol</p>
-                        <p>lol 2</p>
+                        <p>{'>'}Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
                 </div>
             </div>
@@ -111,8 +113,10 @@ const Social = () => {
                 <div className='description'>
                     <h2>C</h2>
                     <div>
-                        <p>lol</p>
-                        <p>lol 2</p>
+                        <p>{'>'}Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p>{'>'}sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>{'>'}Ut enim ad minim veniam,</p>
+                        <p>{'>'}quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
             </div>
@@ -121,8 +125,10 @@ const Social = () => {
                 <div className='description'>
                     <h2>Python</h2>
                     <div>
-                        <p>lol</p>
-                        <p>lol 2</p>
+                        <p>{'>'}Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p>{'>'}sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>{'>'}Ut enim ad minim veniam,</p>
+                        <p>{'>'}quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
             </div>
@@ -131,8 +137,8 @@ const Social = () => {
                 <div className='description'>
                     <h2>Haskell</h2>
                     <div>
-                        <p>lol</p>
-                        <p>lol 2</p>
+                        <p>{'>'}Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                        <p>{'>'}sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
                 </div>
             </div>

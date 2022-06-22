@@ -97,9 +97,16 @@ export const Content = styled.div`
             font-family: 'Big Noodle';
             font-size: 3.5rem;
         }
+
+        p {
+            font-family: 'Courier Prime';
+            color: var(--darkGrayMain);
+            font-size: 1.3rem;
+        }
     }
 
     img {
         width: 150px;
     }
 `;
+
