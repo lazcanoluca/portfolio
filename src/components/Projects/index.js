@@ -65,6 +65,8 @@ const Projects = ({ projects }) => {
                                 {project.stack.includes('css') && <img className='icon' src={css} />}
                                 {project.stack.includes('js') && <img className='icon' src={js} />}
                                 {project.stack.includes('react') && <img className='icon' src={react} />}
+                                {project.stack.includes('c') && <img className='icon' src={c} />}
+                                {project.stack.includes('python') && <img className='icon' src={python} />}
                             </ul>
                             <div className='relleno'></div>
                         </div>

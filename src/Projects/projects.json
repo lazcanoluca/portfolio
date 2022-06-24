@@ -8,7 +8,7 @@
             "url": "https://solar-system-catalog.netlify.app/",
             "github": "https://github.com/lazcanoluca/solar-log",
             "stack": ["html", "css", "js", "react"],
-            "image": "https://solarsystem.nasa.gov/system/news_items/main_images/265_P50142.jpg"
+            "image": "https://github.com/lazcanoluca/images/blob/main/slideshow-1594641730.png?raw=true"
         },
         {
             "name": "Movie Browser",
@@ -18,27 +18,27 @@
             "url": "https://react-movie-catalog.netlify.app/",
             "github": "https://github.com/lazcanoluca/movie-browser-rmdb",
             "stack": ["html", "css", "js", "react"],
-            "image": "https://mimili.files.wordpress.com/2020/11/star-wars-i-the-phantom-menace.jpg"
+            "image": "https://github.com/lazcanoluca/images/blob/main/1-International-Union-of-Cinemas-Calls-for-Open-Standards-in-the-Cinema-Industry.jpg?raw=true"
         },
         {
-            "name": "project 3",
-            "description": "project number 3 description",
+            "name": "Probabilities TEG",
+            "description": "",
             "year": 2020,
-            "month": 9,
-            "url": "some url",
-            "github": "githu url",
-            "stack": [],
-            "image": "url or path for image"
+            "month": 4,
+            "url": "",
+            "github": "https://github.com/lazcanoluca/teg_probabilidades",
+            "stack": ["python"],
+            "image": "https://github.com/lazcanoluca/images/blob/main/teg.PNG?raw=true"
         },
         {
-            "name": "project 4",
-            "description": "project number 4 description",
+            "name": "Solar system with SPICE",
+            "description": "",
             "year": 2020,
-            "month": 9,
-            "url": "some url",
-            "github": "githu url",
-            "stack": [],
-            "image": "url or path for image"
+            "month": 4,
+            "url": "",
+            "github": "https://github.com/lazcanoluca/solar_system_spice",
+            "stack": ["python"],
+            "image": "https://github.com/lazcanoluca/images/blob/main/SSB_WRT_SUN.png?raw=true"
         },
         {
             "name": "Stack, queue and linked list",

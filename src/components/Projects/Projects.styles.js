@@ -145,6 +145,7 @@ export const Grid = styled.div`
 
 export const Thumb = styled.div`
     background-image: url(${({ image }) => image});
+    background-position: center;
     background-size: cover;
     /* padding: 4rem 1rem 0 1rem; */
     border-radius: .25rem;
