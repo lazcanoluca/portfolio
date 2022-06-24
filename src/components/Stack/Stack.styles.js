@@ -88,9 +88,13 @@ export const Content = styled.div`
         margin-bottom: 4rem;
     }
 
+    /* img {
+        flex-grow: 1;
+    } */
+
     .description {
         margin-left: 1rem;
-        flex-grow: 1;
+        /* flex-shrink: 1; */
 
         h2 {
             margin-bottom: .75rem;

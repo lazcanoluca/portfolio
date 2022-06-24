@@ -17,7 +17,7 @@ function App() {
       <FontStyles />
       {/* <Header /> */}
       <Home />
-      <Footer />
+      {/* <Footer /> */}
     </>
     // <div className="App">
     //   <GlobalStyle />

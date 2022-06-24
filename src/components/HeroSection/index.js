@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 // import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
+import { link_github, link_linkedin, link_twitter } from '../../links';
+
 
 import { Wrapper,
         TopBar,
@@ -19,7 +21,9 @@ import { Wrapper,
         Language,
         Mode } from './HeroSection.styles';
 
-const HeroSection = ({ image }) => (
+const HeroSection = ({ image }) => {
+
+    return (
     <Wrapper image = { image }>
         {/* <Parallax pages={1}> */}
             {/* <ParallaxLayer offset={0}> */}
@@ -34,9 +38,9 @@ const HeroSection = ({ image }) => (
                     </Config>
                     <Social>
                         <ul>
-                            <li><FontAwesomeIcon icon={faGithub} size = '2x' /></li>
-                            <li><FontAwesomeIcon icon={faTwitter} size = '2x' /></li>
-                            <li><FontAwesomeIcon icon={faLinkedin} size = '2x' /></li>
+                            <li><a href={link_github} target="_blank"><FontAwesomeIcon icon={faGithub} size = '2x' /></a></li>
+                            <li><a href={link_twitter} target="_blank"><FontAwesomeIcon icon={faTwitter} size = '2x' /></a></li>
+                            <li><a href={link_linkedin} target="_blank"><FontAwesomeIcon icon={faLinkedin} size = '2x' /></a></li>
                         </ul>
                     </Social>
                 </TopBar>
@@ -64,8 +68,8 @@ const HeroSection = ({ image }) => (
                         <Navigation>
                             <ul>
                                 <li>Projects</li>
-                                <li>About me</li>
                                 <li>Skills</li>
+                                <li>About me</li>
                                 <li>Contact</li>
                             </ul>
                         </Navigation>
@@ -85,6 +89,7 @@ const HeroSection = ({ image }) => (
     // <div>
     //     Hero section
     // </div>
-)
+    )
+};
 
 export default HeroSection;

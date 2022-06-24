@@ -184,11 +184,25 @@ export const Social = styled.div`
     }
 
     li {
-        color: var(--greenMain);
+        a {
+            color: var(--greenMain);
+        }
         display: flex;
         align-items: center;
         margin: 15px 10px 15px 10px;
         padding: 10px;
+
+        :hover {
+            cursor: pointer;
+        }
+
+        /* a:link,
+        a:visited,
+        a:hover,
+        a:active
+        {
+            color: white;
+        } */
     }
 `;
 

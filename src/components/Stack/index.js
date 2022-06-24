@@ -70,76 +70,76 @@ const Social = () => {
                 <img src={html} />
                 <div className='description'>
                     <h2>HTML 5</h2>
-                    <div>
+                    {/* <div>
                         <p>{'>'}Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         <p>{'>'}sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <p>{'>'}Ut enim ad minim veniam,</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className='tech css'>
                 <img src={css} />
                 <div className='description'>
                     <h2>CSS 3</h2>
-                    <div>
+                    {/* <div>
                         <p>{'>'}Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         <p>{'>'}sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <p>{'>'}Ut enim ad minim veniam,</p>
                         <p>{'>'}quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className='tech js'>
                 <img src={js} />
                 <div className='description'>
                     <h2>JavaScript</h2>
-                    <div>
+                    {/* <div>
                         <p>{'>'}Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         <p>{'>'}sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className='tech react'>
                 <img src={react} />
                 <div className='description'>
                     <h2>React</h2>
-                    <div>
+                    {/* <div>
                         <p>{'>'}Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className='tech c'>
                 <img src={c} />
                 <div className='description'>
                     <h2>C</h2>
-                    <div>
+                    {/* <div>
                         <p>{'>'}Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         <p>{'>'}sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <p>{'>'}Ut enim ad minim veniam,</p>
                         <p>{'>'}quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className='tech python'>
                 <img src={python} />
                 <div className='description'>
                     <h2>Python</h2>
-                    <div>
+                    {/* <div>
                         <p>{'>'}Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         <p>{'>'}sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                         <p>{'>'}Ut enim ad minim veniam,</p>
                         <p>{'>'}quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className='tech haskell'>
                 <img src={haskell} />
                 <div className='description'>
                     <h2>Haskell</h2>
-                    <div>
+                    {/* <div>
                         <p>{'>'}Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                         <p>{'>'}sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </Content>

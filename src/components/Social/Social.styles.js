@@ -62,12 +62,23 @@ export const SocialList = styled.div`
         flex-wrap: wrap;
     }
 
-    li {
+    li > a {
         display: flex;
         align-items: center;
         padding: 10px 20px;
         /* color: white; */
+        /* a {
+            color: var(--greenMain);
+        } */
+        text-decoration: none;
     }
+
+    a:link,
+        a:visited,
+        a:hover,
+        a:active {
+            color: var(--blackMain);
+        }
 
     li:hover {
         cursor: pointer;

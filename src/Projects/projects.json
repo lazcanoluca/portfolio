@@ -41,34 +41,34 @@
             "image": "url or path for image"
         },
         {
-            "name": "project 5",
-            "description": "project number 5 description",
-            "year": 2020,
-            "month": 9,
-            "url": "some url",
-            "github": "githu url",
-            "stack": [],
-            "image": "url or path for image"
+            "name": "Stack, queue and linked list",
+            "description": "",
+            "year": 2022,
+            "month": 5,
+            "url": "",
+            "github": "https://github.com/lazcanoluca/tda_lista",
+            "stack": ["c"],
+            "image": "https://github.com/lazcanoluca/images/blob/main/food-pancakes.png?raw=true"
         },
         {
-            "name": "project 6",
-            "description": "project number 5 description",
-            "year": 2020,
-            "month": 9,
-            "url": "some url",
-            "github": "githu url",
-            "stack": [],
-            "image": "url or path for image"
+            "name": "Binary search tree",
+            "description": "",
+            "year": 2022,
+            "month": 5,
+            "url": "",
+            "github": "https://github.com/lazcanoluca/tda_abb",
+            "stack": ["c"],
+            "image": "https://github.com/lazcanoluca/images/blob/main/gondor_tree_by_miragepv-d8qvlgr.jpg?raw=true"
         },
         {
-            "name": "project 7",
-            "description": "project number 5 description",
-            "year": 2020,
-            "month": 9,
-            "url": "some url",
-            "github": "githu url",
-            "stack": [],
-            "image": "url or path for image"
+            "name": "Hash table",
+            "description": "",
+            "year": 2022,
+            "month": 6,
+            "url": "",
+            "github": "https://github.com/lazcanoluca/tda_hash",
+            "stack": ["c"],
+            "image": "https://github.com/lazcanoluca/images/blob/main/34036762-filing-cabinet-drawing.jpg?raw=true"
         }
 ]
 }
