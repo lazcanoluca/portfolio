@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a9215425.css",
+    "main.js": "/portfolio/static/js/main.cef2f8a2.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/planet_estyle.ttf": "/portfolio/static/media/planet_estyle.e7a21926ece6f879f20f.ttf",
+    "static/media/big_noodle_titling.ttf": "/portfolio/static/media/big_noodle_titling.e2ebffa44fbb63381589.ttf",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/python.svg": "/portfolio/static/media/python.439dd3d27dbba23fa07acb94633c7a7d.svg",
+    "static/media/c.svg": "/portfolio/static/media/c.21a8fab81e76bf019238a55c1c88198c.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/js.svg": "/portfolio/static/media/js.acc4642f682cd93a4c20a8a02c0cfa21.svg",
+    "static/media/css.svg": "/portfolio/static/media/css.6ec1697a406483c72ccf775894d16777.svg",
+    "static/media/html.svg": "/portfolio/static/media/html.5804150e47fbeb132a5d2688f08ce4c8.svg",
+    "static/media/haskell.svg": "/portfolio/static/media/haskell.df1fd2c758d23eccde024b1e306cbe2c.svg",
+    "static/media/react.svg": "/portfolio/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg",
+    "main.a9215425.css.map": "/portfolio/static/css/main.a9215425.css.map",
+    "main.cef2f8a2.js.map": "/portfolio/static/js/main.cef2f8a2.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9215425.css",
+    "static/js/main.cef2f8a2.js"
+  ]
+}
