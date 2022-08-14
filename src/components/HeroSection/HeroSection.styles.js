@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
     height: 100vh;
     /* background-color: var(--blackOpacity);
-    background-image: url(${({ image }) => image}); */
+    /* background-image: url(${({ image }) => image}); */
     /* background: var(--blackOpacity), url(${({ image }) => image}); */
-    /* background: linear-gradient(
+    background: linear-gradient(
         to right,
         rgba(0, 0, 0, .65) 30%,
         rgba(0, 0, 0, .65) 100%
-        ), url(${({ image }) => image}); */
+        ), url(${({ image }) => image});
     /* background- */
     background-size: cover;
     overflow-y: hidden;

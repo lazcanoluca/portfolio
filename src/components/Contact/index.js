@@ -10,7 +10,7 @@ const Contact = () => (
         <Content>
             <Info>
                 <p onClick={() => {navigator.clipboard.writeText('lazcanoluca@gmail.com')}} Title="Click to copy" className='mail'>lazcanoluca@gmail.com</p>
-                <p onClick={() => {navigator.clipboard.writeText('+54 9 11 xxxx xxxx')}} className='phone'>+54 9 11 xxxx xxxx</p>
+                <p onClick={() => {navigator.clipboard.writeText('+54 9 11 xxxx xxxx')}} Title="Click to copy" className='phone'>+54 9 11 7365 3431</p>
             </Info>
         </Content>
     </Wrapper>
