@@ -69,7 +69,7 @@ const HeroSection = ({ image }) => {
                             <ul>
                                 <li>Projects</li>
                                 <li>Skills</li>
-                                <li>About me</li>
+                                <li>About</li>
                                 <li>Contact</li>
                             </ul>
                         </Navigation>

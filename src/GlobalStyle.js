@@ -31,6 +31,20 @@ export const GlobalStyle = createGlobalStyle`
         --heightLineTotal: calc( var(--heightLine) + 2*var(--stroke));
 
         font-size: 100%;
+
+        --size-factor-small: 1;
+        --size-factor-medium: 1.1;
+        --size-factor-large: 1.2;
+
+        @media (max-width: 920px) {
+                /* font-size: calc(font-size * var(--size-factor-medium)); */
+                font-size: 85%;
+                --circleRadius: 100px;
+                --stroke: 15px;
+                --heightLine: 80px;
+        }
+
+        --screen-small-width: 800px;
     }
 
     * {
@@ -44,6 +58,7 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Planet Estyle'; */
         
         box-sizing: border-box;
+        /* overflow: hidden; */
         /* color: var(--whiteMain); */
 
         h1 {
@@ -69,6 +84,7 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         overflow-x: hidden;
+        box-sizing: border-box;
     }
 
 `;

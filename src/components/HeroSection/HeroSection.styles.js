@@ -44,9 +44,15 @@ export const Header = styled.div`
 export const Circulo = styled.div`
 
     position: absolute;
+    left: calc( 50vw - var(--circleHW)/2 );
 
-    /* top: calc( 50vh - var(--circleHW)/2 ); */
-    left: calc( 27vw - var(--circleHW)/2 );
+    @media (min-width: 670px) {
+        left: calc( 20vw - var(--circleHW)/2 );
+    }
+
+    @media (min-width: 920px) {
+        left: calc( 27vw - var(--circleHW)/2);
+    }
 
     svg {
         height: var(--circleHW);
@@ -67,6 +73,10 @@ export const Rectangulos = styled.div`
 
     position: absolute;
     top: calc( var(--circleHW)/2 - var(--heightLineTotal)/2 );
+
+    @media (max-width: 670px) {
+        visibility: hidden;
+    }
 
     svg {
         width: 100vw;
@@ -100,21 +110,36 @@ export const SVG = styled.div``;
 
 export const CentralBar = styled.div`
     position: absolute;
-    top: calc( 50vh - var(--circleHW)/2 );
     max-width: 100%;
+
+    top: calc( 35vh - var(--circleHW)/2 );
+
+    @media (min-width: 670px) {
+        top: calc( 50vh - var(--circleHW)/2 );
+    }
+
     /* overflow: hidden; */
 `;
 
 export const Name = styled.div`
+
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    left: calc( 27vw - var(--circleHW)/2);
-    /* bottom: calc(var(--circleHW)); */
+    left: calc( 50vw - var(--circleHW)/2); /* center */
     width: var(--circleHW);
     height: var(--circleHW);
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 670px) {
+        left: calc( 20vw - var(--circleHW)/2 );
+    }
+    
+    @media (min-width: 920px) {
+        left: calc( 27vw - var(--circleHW)/2);
+    }
 
     user-select: none;
     
@@ -130,22 +155,46 @@ export const Name = styled.div`
 `;
 
 export const Navigation = styled.div`
+
+    display: flex;
+    /* flex-direction: column; */
+
+    /* width: calc( 100vw - (27vw + var(--circleHW)/2)); */
     position: absolute;
     height: var(--heightLineTotal);
-    display: flex;
-    width: 100%;
-    /* flex-direction: column; */
+    /* width: 100%; */
+
+    
+    /* display: flex; */
     align-items: center;
-    /* justify-content: space-between; */
-    top: calc( var(--heightLineTotal)/2 );
-    left: calc( 27vw + var(--circleHW)/2);
-    width: calc( 100vw - (27vw + var(--circleHW)/2));
+    justify-content: center;
+    
+    top: calc( var(--heightLineTotal)/2 + var(--circleHW) + 2*var(--stroke));
+    left: calc( 50vw - 105px/2);
+
+    @media (min-width: 670px) {
+        padding-right: 20px;
+        top: calc( var(--heightLineTotal)/2 );
+        left: calc( 20vw + var(--circleHW)/2);
+            width: calc( 100vw - (20vw + var(--circleHW)/2));
+    }
+
+    @media (min-width: 920px) {
+        left: calc( 27vw + var(--circleHW)/2);
+        width: calc( 100vw - (27vw + var(--circleHW)/2));
+    }
 
     ul {
-        width:100%;
+        width: 100%;
         list-style: none;
         display: flex;
         justify-content: space-evenly;
+        flex-direction: column;
+
+        @media (min-width: 670px) {
+            flex-direction: row;
+        }
+
     }
 
     li {
@@ -153,9 +202,14 @@ export const Navigation = styled.div`
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 15px;
+        padding: .5em;
         /* margin: 20px 0 20px 0; */
         min-width: 70px;
+
+        margin-bottom: 5px;
+        margin-top: 5px;
+
+        border-left: solid 10px var(--greenMain);
 
         font-family: 'Planet Estyle';
         font-size: 1.7rem;
@@ -166,6 +220,10 @@ export const Navigation = styled.div`
             cursor: pointer;
             text-decoration: underline;
         }
+
+        background: var(--whiteMain);
+
+        /* text: nowrap; */
     }
 
 `;
