@@ -15,18 +15,23 @@ export const Wrapper = styled.div`
 
 export const Title = styled.div`
 
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--blackMain);
+
+    h1 {
+        color: var(--greenMain);
+        font-family: 'Big Noodle';
+        font-size: 6em;
+    }
 
     @media (min-width: 920px) {
 
         width: calc(.17*100vw);
         padding: 0;
-        background: var(--blackMain);
-    
-        position: relative;
-    
-        display: flex;
-        justify-content: center;
-        align-items: center;
         
         .relleno {
             height: 100%;
@@ -38,8 +43,6 @@ export const Title = styled.div`
         }
     
         h1 {
-            color: var(--greenMain);
-            font-family: 'Big Noodle';
             font-size: calc(.25*100vh);
             white-space: nowrap;
         }

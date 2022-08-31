@@ -209,7 +209,10 @@ export const Navigation = styled.div`
         margin-bottom: 5px;
         margin-top: 5px;
 
-        border-left: solid 10px var(--greenMain);
+        
+        @media (max-width: 670px) {
+            border-left: solid 10px var(--greenMain);
+        }
 
         font-family: 'Planet Estyle';
         font-size: 1.7rem;
