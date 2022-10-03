@@ -15,6 +15,8 @@ export const Wrapper = styled.div`
 
 export const Title = styled.div`
 
+    height: 110vh;
+
     position: relative;
     
     display: flex;
@@ -146,5 +148,19 @@ export const Content = styled.div`
     img {
         width: 100px;
     }
+
+    ul {
+        margin-left: 2em;
+    }
+
+    li {
+        list-style: none;
+        margin: .5em;
+    }
+
+    /* a {
+        font-family: 'Big Noodle';
+        font-size: 1.5em;
+    } */
 `;
 

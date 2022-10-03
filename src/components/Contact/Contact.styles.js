@@ -17,7 +17,7 @@ export const Title = styled.div`
     /* display: inline-block; */
     /* position: absolute; */
     height: 100vh;
-    width: 13rem;
+    /* width: 13rem; */
     width: calc(.17*100vw);
     padding: 0;
     /* top: 0; */

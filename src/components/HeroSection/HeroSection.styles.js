@@ -7,11 +7,12 @@ export const Wrapper = styled.div`
     /* background: var(--blackOpacity), url(${({ image }) => image}); */
     background: linear-gradient(
         to right,
-        rgba(0, 0, 0, .65) 30%,
-        rgba(0, 0, 0, .65) 100%
+        rgba(0, 0, 0, .2) 30%,
+        rgba(0, 0, 0, .2) 100%
         ), url(${({ image }) => image});
     /* background- */
     background-size: cover;
+    background-position: bottom;
     overflow-y: hidden;
 /* 
     position: relative;

@@ -14,6 +14,8 @@ import { useInView } from 'react-intersection-observer';
 
 import { Wrapper, Title, Content } from './Stack.styles';
 
+import { link_cv_sp, link_cv_en } from '../../links';
+
 const Social = () => {
 
     const [ref0, inView0] = useInView({
@@ -67,7 +69,7 @@ const Social = () => {
         </Title>
         <Content>
             <div>
-                <h2>Markup / languages</h2>
+                <h2>Markup and programming languages</h2>
                 <div className='languages'>
                     <div className='tech html'>
                         <img src={html} />
@@ -139,7 +141,7 @@ const Social = () => {
                 </div>
             </div>
             <div>
-                <h2>Frameworks / technologies</h2>
+                <h2>Technologies and frameworks</h2>
                 <div className='techs'>
                     <div className='tech react'>
                         <img src={react} />
@@ -151,6 +153,9 @@ const Social = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div>
+                <h2>You can access my resume in <a href={link_cv_en} target="_blank">English</a>, o en <a href={link_cv_sp} target="_blank">Español</a></h2>
             </div>
             
         </Content>

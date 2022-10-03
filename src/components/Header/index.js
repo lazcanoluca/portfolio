@@ -11,7 +11,7 @@ const Header = () => (
             <SocialMedia>
                 <ul>
                     <li><FontAwesomeIcon icon={faGithub} size = '2x' /></li>
-                    <li><FontAwesomeIcon icon={faTwitter} size = '2x' /></li>
+                    {/* <li><FontAwesomeIcon icon={faTwitter} size = '2x' /></li> */}
                     <li><FontAwesomeIcon icon={faLinkedin} size = '2x' /></li>
                 </ul>
             </SocialMedia>
